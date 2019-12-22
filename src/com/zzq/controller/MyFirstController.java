@@ -8,6 +8,7 @@ public class MyFirstController {
     @RequestMapping("/hello.htm")
     public String hello(){
         System.out.println("1");
+        66666
         return "/WEB-INF/hello.jsp";
     }
 }

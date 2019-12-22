@@ -27,6 +27,6 @@
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <!-- 所有的请求都会被拦截 -->
-        <url-pattern>/.htm</url-pattern>
+        <url-pattern>*.htm</url-pattern>
     </servlet-mapping>
 </web-app>

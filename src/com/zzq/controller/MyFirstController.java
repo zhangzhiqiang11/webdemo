@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MyFirstController {
     @RequestMapping("/hello.htm")
     public String hello(){
+        System.out.println("1");
         return "/WEB-INF/hello.jsp";
     }
 }
